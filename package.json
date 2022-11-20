@@ -1,0 +1,17 @@
+{
+  "name": "workshops",
+  "version": "1.0.0",
+  "description": "This repository contains all workshop material..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "workshop",
+    "react",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Bart Kooijman",
+  "license": "ISC"
+}

@@ -1,0 +1,116 @@
+:root {
+  --primary-color: rgba(255, 255, 255, 0.96);
+  --secondary-color: rgb(36, 36, 36);
+  --tertiary-color: rgb(135, 57, 249);
+}
+
+:root, [data-theme="light"] {
+  --primary-color: rgba(255, 255, 255, 0.96);
+  --secondary-color: rgb(36, 36, 36);
+  --tertiary-color: rgb(135, 57, 249);
+}
+
+[data-theme="dark"] {
+  --primary-color: rgb(36, 36, 36);
+  --secondary-color: rgba(255, 255, 255, 0.96);
+  --tertiary-color: rgb(135, 57, 249);
+}
+
+body {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.app--light {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.app--dark {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(135, 57, 249);
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav .themebutton {
+  position: sticky;
+  top: 10px;
+  align-self: flex-start;
+  width: 50px;
+  border-radius: 50px;
+  border: 5px solid var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+nav .themebutton span[role=img] {
+margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  width: inherit;
+  justify-content: space-around;
+}
+
+nav ul div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul div span {
+  color: rgb(36, 36, 36);
+  font-size: 20px;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+}
+
+nav li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+nav li a:hover {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+nav li a.active {
+  border-bottom: 10px solid rgba(255, 255, 255, 0.96);
+}
+
+.box {
+  max-width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border: 5px dashed rgb(135, 57, 249);
+  margin-top: 50px;
+}
+
+.box p {
+  background-color: rgb(179, 178, 245);
+}

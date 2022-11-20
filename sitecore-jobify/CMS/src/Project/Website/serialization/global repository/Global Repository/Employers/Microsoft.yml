@@ -1,0 +1,57 @@
+﻿---
+ID: "ccb5f22c-f1b9-4e05-9300-0a01d573c782"
+Parent: "416961ca-c6b3-4dff-a176-083f012962c3"
+Template: "52e4c818-4f21-4fce-8b51-1705b6fdc94f"
+Path: /sitecore/content/Global Repository/Employers/Microsoft
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{484249CF-12F2-45A2-ABA0-8CF95DDDAFAF}"
+          p:after="*[1=2]"
+          s:id="{8309B6EE-5047-525A-A3A7-50ACDA704473}"
+          s:ph="jss-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "148a471e-8d9b-4049-8d64-e90f517fca64"
+      Hint: FriendlyUrl
+      Value: microsoft
+    - ID: "1e6e4fc6-95c8-458f-a233-b8c9b9c328d4"
+      Hint: Text
+      Value: Satya
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211010T084246Z
+    - ID: "615bb7ab-c79e-467e-bdc2-db74ca93a939"
+      Hint: Related Organisation
+      Value: "{92369566-52BE-431D-9789-42631DB2F4C7}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d5ea94c-b962-4319-bafc-69113504fe1d"
+    - ID: "92b53f13-954a-4d6c-a1ba-22a26fda0de3"
+      Hint: Title
+      Value: Microsoft
+    - ID: "ae23349a-15b1-48c0-b50b-e729c398dc96"
+      Hint: Image
+      Value: |
+        <image mediaid="{717EDFA1-F709-4AED-B8F0-1B0DB15DEB04}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211022T125707Z
+    - ID: "ef465cab-7289-4919-995c-465904ad924e"
+      Hint: SubTitle
+      Value: A big software company.

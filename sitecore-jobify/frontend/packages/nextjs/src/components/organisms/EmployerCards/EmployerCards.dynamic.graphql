@@ -1,0 +1,46 @@
+# Editing here does not save the query on the item; copy it back when done!
+fragment title on Content_Title {
+  title {
+    value
+  }
+}
+
+query EmployerCards($language: String!, $relatedEmployer: String!) {
+    relatedEmployer: item(path: $relatedEmployer, language: $language) {
+    id
+    ... on IEmployer {
+      ...title
+      text {
+        value
+      }
+      image {
+        src
+      }
+    }
+  }
+
+  search(
+    where: {
+      name: "relatedemployerfullpath_s"
+      value: $relatedEmployer
+      AND: { name: "_language", value: $language }
+    }
+  ) {
+    total
+    
+    vacancies: results {
+      id
+      ... on IVacancy {
+        friendlyUrl {
+          value
+        }
+        title {
+          value
+        }
+        text {
+          value
+        }
+      }
+    }
+  }
+}

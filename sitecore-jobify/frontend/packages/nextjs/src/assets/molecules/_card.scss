@@ -1,0 +1,32 @@
+.card {
+    height: 300px;
+    margin-bottom: 30px;
+    color: var(--color-text);
+    &:hover {
+        // color: var(--color-primary);
+        box-shadow: 0px 4px 4px 3px var(--color-primary);
+    }
+    img {
+        height: 200px;
+        max-height: 100px;
+        align-self: center;
+        margin: 10px;
+    }
+    
+    .card-body {
+        position: relative;
+
+        .card-text-bottom {
+            position: absolute;
+            bottom: 30px;
+
+            &:hover {
+                color: var(--color-secondary);
+            }
+        }
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}

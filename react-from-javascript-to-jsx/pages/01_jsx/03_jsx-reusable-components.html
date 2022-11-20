@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.13.12/babel.js"></script>
+
+    <script type="text/babel">
+      const rootElement = document.getElementById("root");
+
+      const props = {
+        backLink: {
+          url: "./02_jsx-and-props.html",
+          text: "Go back to JSX and Props"
+        },
+        header: {
+          title: "Hello React, JSX Reusable Components.",
+          className: "my-css-class"
+        },
+        forwardLink: {
+          url: "./jsx-and-props.html",
+          text: "Go to props in JSX"
+        }
+      };
+
+      // const LinkElement = (link) => <a href={link.url}> {link.text}</a>;
+      // const HeaderElement = (header) => (
+      //   <h1 className={header.className}>{header.title}</h1>
+      // );
+
+      // Notice the destructering here.
+      const LinkElement = ({ url, text }) => <a href={url}> {text}</a>;
+      const HeaderElement = ({ className, title }) => (
+        <h1 className={className}>{title}</h1>
+      );
+
+      // Executed as functions.
+      // const AllElements = (
+      //   <>
+      //     {linkElement(props.backLink)}
+      //     {headerElement(props.header)}
+      //     {linkElement(props.forwardLink)}
+      //   </>
+      // );
+
+      // Executed using JSX. Notice the Capitalized Name!
+      const AllElements = (
+        <>
+          <LinkElement {...props.backLink} />
+          <HeaderElement {...props.header} />
+          <LinkElement {...props.forwardLink} />
+        </>
+      );
+
+      ReactDOM.render(AllElements, rootElement);
+    </script>
+  </body>
+</html>

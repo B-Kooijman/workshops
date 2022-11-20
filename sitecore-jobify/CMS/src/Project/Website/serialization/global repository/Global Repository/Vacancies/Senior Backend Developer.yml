@@ -1,0 +1,35 @@
+﻿---
+ID: "d53a0c61-e8d4-43e3-87a8-5028454d0dc2"
+Parent: "7a92c2b0-94cb-47f9-8c6e-39065a4edbd9"
+Template: "4b2ff096-08b8-41b8-8ac1-597329d3d5dc"
+Path: /sitecore/content/Global Repository/Vacancies/Senior Backend Developer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "148a471e-8d9b-4049-8d64-e90f517fca64"
+      Hint: FriendlyUrl
+      Value: "senior-backend-developer"
+    - ID: "1e6e4fc6-95c8-458f-a233-b8c9b9c328d4"
+      Hint: Text
+      Value: "Backend developer wanted!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211018T180836Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4616ccc-5759-40f2-bd42-764495c9bcbc"
+    - ID: "92b53f13-954a-4d6c-a1ba-22a26fda0de3"
+      Hint: Title
+      Value: Backend Developer
+    - ID: "ac47ffec-343e-40d8-81fd-fc65bb5929f6"
+      Hint: Related Employer
+      Value: "{929D8CA6-3D9A-4902-8971-8CE6D5170CAD}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211021T115332Z

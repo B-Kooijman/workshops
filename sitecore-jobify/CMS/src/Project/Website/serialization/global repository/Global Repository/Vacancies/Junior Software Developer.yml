@@ -1,0 +1,35 @@
+﻿---
+ID: "1d1c7654-08c3-4223-96a7-d6da376dc26f"
+Parent: "7a92c2b0-94cb-47f9-8c6e-39065a4edbd9"
+Template: "4b2ff096-08b8-41b8-8ac1-597329d3d5dc"
+Path: /sitecore/content/Global Repository/Vacancies/Junior Software Developer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "148a471e-8d9b-4049-8d64-e90f517fca64"
+      Hint: FriendlyUrl
+      Value: "junior-software-developer"
+    - ID: "1e6e4fc6-95c8-458f-a233-b8c9b9c328d4"
+      Hint: Text
+      Value: "We are looking for a software developer. Apply now!"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211010T082430Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5294793f-d28b-48dd-be0c-a15a5212eb4f"
+    - ID: "92b53f13-954a-4d6c-a1ba-22a26fda0de3"
+      Hint: Title
+      Value: Software Developer 
+    - ID: "ac47ffec-343e-40d8-81fd-fc65bb5929f6"
+      Hint: Related Employer
+      Value: "{CCB5F22C-F1B9-4E05-9300-0A01D573C782}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211021T115319Z

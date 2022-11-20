@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+
+.type_buttons {
+  display: inline-block;
+}
+
+button {
+  background: #50f50f;
+  color: white;
+  width: 100px;
+  margin: 10px 10px auto;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  outline: 0;
+  letter-spacing: 0.04em;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}

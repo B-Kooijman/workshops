@@ -1,0 +1,59 @@
+﻿---
+ID: "a657beb3-8f18-508a-9d0a-e875b33afc20"
+Parent: "50c3f67d-9a00-516e-9b85-f501186d782c"
+Template: "50c3f67d-9a00-516e-9b85-f501186d782c"
+Path: /sitecore/templates/Project/jobify/App Route/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{50C3F67D-9A00-516E-9B85-F501186D782C}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{6B40459B-5D38-585B-BFDE-4A61383A7682}">
+        <p
+          uid="{3D3A37CA-0C58-5C28-97C5-6F6861B28AEE}"
+          key="jss-nav"
+          md="{AC3205B0-A63B-5070-8BC3-06B227FB7C27}" />
+        <p
+          uid="{05180876-BE55-585E-971E-374B3AA053FF}"
+          key="jss-main"
+          md="{E852E825-8312-5AF4-B382-836DD64A1D68}" />
+        <p
+          uid="{37DBBB65-D001-551D-A911-5B8B1366CA16}"
+          key="jss-header"
+          md="{2A28ECB4-3808-5198-AB81-D69B2A9D7CB9}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211006T141032Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89681a3c-694a-4896-8fbb-06ab54f3f923"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211101T110407Z

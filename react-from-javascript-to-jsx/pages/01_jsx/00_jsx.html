@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+
+    <!-- Uncomment these lines to enable the compiler! -->
+    <!-- <script type="text/javascript"> -->
+    <script src="https://unpkg.com/@babel/standalone@7.13.12/babel.js"></script>
+    <script type="text/babel">
+      const rootElement = document.getElementById("root");
+
+      // const titleElement = React.createElement("h1", {
+      //   children: "Hello React with JSX!",
+      //   className: "my-css-class"
+      // });
+
+      // this will not work without a compiler!
+      const backElement = (
+        <a href="../00_javascript/02_multiple-react-elements.html">
+          Go back to Multiple React Elements
+        </a>
+      );
+      const titleElement = (
+        <h1 className="my-css-class">Hello React with JSX!</h1>
+      );
+      const forwardElement = (
+        <a href="./01_jsx-and-javascript.html">Go to JSX and JavaScript</a>
+      );
+
+      // Notice the React.Fragment! Why do we need it here?
+      const AllElements = (
+        <React.Fragment>
+          {backElement}
+          {titleElement}
+          {forwardElement}
+        </React.Fragment>
+      );
+
+      ReactDOM.render(AllElements, rootElement);
+    </script>
+  </body>
+</html>
+
+<!-- Go to the url below -->
+<!-- https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&spec=false&loose=false&code_lz=MYewdgzgLgBFCWUA2BTAoqgtissC8MAPACbwBuMwSAhhBAHLXZ4BEou18YKATiwHwsAEiiRIQMAO4geSYi0IB6UmX5A&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=true&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=true&targets=&version=7.13.12&externalPlugins= -->
+<!-- // 1.  Paste the titleElement on the left side.  -->
+<!-- // 2.  Notice how the compiler work.  -->
+<!-- // 3.  Toggle the option React Runtime. React
+            v17 introduced the react/jsx-runtime module. 
+            This means you don't need to import React anymore! 
+            Babel takes care of this for you now. -->
+<!-- // 4.  Uncomment the scripts lines above, to enable Babel in codesandbox.  -->
+<!-- // 5.  Press on F12 and look at the compiled version in the head element, 
+            compare it to the script tag! -->
+<!-- // 6.  Don't use Babel like this in a real project, it should compile your code at build time. -->

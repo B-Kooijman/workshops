@@ -1,0 +1,38 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Visual Studio 2019 cache/options directory
+.vs/
+.vscode/
+
+# Should be excluded from source control according to comments in the file(s) itself.
+*.scindex
+
+# Local Sitecore tooling? Check whether it should be included in source control.
+.sitecore/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+!lib/**/[Bb]in/
+!deploy/**/[Bb]in/
+buildoutput
+[Oo]bj/
+
+# The packages folder can be ignored because of Package Restore
+/packages
+
+# Other
+node_modules/

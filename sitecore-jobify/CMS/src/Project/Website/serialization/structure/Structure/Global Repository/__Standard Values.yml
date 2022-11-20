@@ -1,0 +1,39 @@
+﻿---
+ID: "b2bb8ad1-5e14-4fff-83fb-aae5a1071539"
+Parent: "f5da0372-72c7-436a-9a71-e1c0be7167fb"
+Template: "f5da0372-72c7-436a-9a71-e1c0be7167fb"
+Path: /sitecore/templates/Project/Structure/Global Repository/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {90BC59D9-D3E5-414B-838B-82C93A734FAC}
+    {BE0CF1B9-BF33-44FF-85CB-2D7CD0ADCE82}
+    {B7861F23-62FC-4D7B-ACCD-1D4AA84C3DDE}
+    {C982302B-FEC0-411A-A3C8-360CFC79D163}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211010T084004Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbdf0a1f-dd59-4095-9e02-b77a849664f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211010T084030Z

@@ -1,0 +1,11 @@
+﻿{
+  "namespace": "Jobify.Foundation.Content",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Foundation/Content"
+      }
+    ]
+  }
+}

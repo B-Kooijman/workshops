@@ -1,0 +1,57 @@
+﻿---
+ID: "929d8ca6-3d9a-4902-8971-8ce6d5170cad"
+Parent: "416961ca-c6b3-4dff-a176-083f012962c3"
+Template: "52e4c818-4f21-4fce-8b51-1705b6fdc94f"
+Path: /sitecore/content/Global Repository/Employers/Apple
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1F2EFAC1-7C43-45F2-BB02-BF09D654CE3B}"
+          p:after="*[1=2]"
+          s:id="{8309B6EE-5047-525A-A3A7-50ACDA704473}"
+          s:ph="jss-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "148a471e-8d9b-4049-8d64-e90f517fca64"
+      Hint: FriendlyUrl
+      Value: apple
+    - ID: "1e6e4fc6-95c8-458f-a233-b8c9b9c328d4"
+      Hint: Text
+      Value: Steve
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211019T124349Z
+    - ID: "615bb7ab-c79e-467e-bdc2-db74ca93a939"
+      Hint: Related Organisation
+      Value: "{03668C0D-2E3F-4906-B393-023A2E4FAF3C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90e08b07-3b53-4891-8b83-eedc2b0d00a7"
+    - ID: "92b53f13-954a-4d6c-a1ba-22a26fda0de3"
+      Hint: Title
+      Value: Apple
+    - ID: "ae23349a-15b1-48c0-b50b-e729c398dc96"
+      Hint: Image
+      Value: |
+        <image mediaid="{9AEA485B-139D-4759-A8B9-68358FF85250}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211022T125712Z
+    - ID: "ef465cab-7289-4919-995c-465904ad924e"
+      Hint: SubTitle
+      Value: Stylish tech company

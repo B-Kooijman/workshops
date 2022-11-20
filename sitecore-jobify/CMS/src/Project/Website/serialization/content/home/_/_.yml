@@ -1,0 +1,36 @@
+﻿---
+ID: "74331e3c-cd01-4e8a-9d1f-0ef18cf86837"
+Parent: "1680c676-587b-48b0-b556-992ee5fcc50a"
+Template: "87be5f0e-a942-4803-a8fd-201a5a60bc78"
+Path: /sitecore/content/jobify/home/*/*
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211021T094607Z
+    - ID: "266aeed9-330b-5b67-bffe-facd0378ecd6"
+      Hint: pageTitle
+      Value: "senior-backend-developer"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C55B483C-EA7F-4E76-A066-985F7D9396CA}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8bfcd6a6-2186-4f70-a98c-7da0205a333b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211021T102841Z

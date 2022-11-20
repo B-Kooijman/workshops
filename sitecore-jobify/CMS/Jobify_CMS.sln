@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{F5243445-01D0-4809-A299-50D46BABB952}"
+	ProjectSection(SolutionItems) = preProject
+		sitecore.json = sitecore.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{D3B9EB1E-4BD5-4BC8-8F62-82A60F540EB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{86AB7D68-15D9-4456-8C3E-4993097E5C69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{E201848A-4A00-4420-AEBA-E0D747DDA236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vacancy", "Vacancy", "{87196F53-3295-4CB1-87D2-94D196710991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{144F1EF5-F6B5-441E-A900-700707DDFC07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Organisation", "Organisation", "{522B14B9-CB7A-40CB-AFB4-6D6232816DEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employer", "Employer", "{5258B0E1-5442-45D0-8F74-CB4AB68A2EB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{8B378F2D-760B-4086-B5E8-CC738C382A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobify.Foundation.Content", "src\Foundation\Content\code\Jobify.Foundation.Content.csproj", "{6F0C6FC7-80A3-4C90-988B-39C5BC74975F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobify.Foundation.Organisation", "src\Foundation\Organisation\code\Jobify.Foundation.Organisation\Jobify.Foundation.Organisation.csproj", "{5081A443-9887-4073-A94F-B53AD0AC9ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobify.Foundation.Employer", "src\Foundation\Employer\code\Jobify.Foundation.Employer\Jobify.Foundation.Employer.csproj", "{10EEA7A8-6EBC-4519-865B-79676BF96252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobify.Foundation.Application", "src\Foundation\Application\code\Jobify.Foundation.Application\Jobify.Foundation.Application.csproj", "{8B94BA35-D354-4B67-8DAB-06959615FAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobify.Project.Website", "src\Project\Website\code\Jobify.Project.Website.csproj", "{6E96065D-A4B6-41AB-A9BE-7945E9F3E30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobify.Foundation.Vacancy", "src\Foundation\Vacancy\code\Jobify.Foundation.Vacancy.csproj", "{5CD05B03-7F1B-48BA-8712-A648F1488175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WildCardItemResolver", "WildCardItemResolver", "{B8C2390F-E190-457F-9BD1-1C760542BF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobify.Foundation.WildCardItemResolver", "src\Foundation\WildCardItemResolver\code\Jobify.Foundation.WildCardItemResolver.csproj", "{A51056E7-94A3-411D-8E27-CF17644E4BD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0C6FC7-80A3-4C90-988B-39C5BC74975F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0C6FC7-80A3-4C90-988B-39C5BC74975F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0C6FC7-80A3-4C90-988B-39C5BC74975F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0C6FC7-80A3-4C90-988B-39C5BC74975F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5081A443-9887-4073-A94F-B53AD0AC9ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5081A443-9887-4073-A94F-B53AD0AC9ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5081A443-9887-4073-A94F-B53AD0AC9ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5081A443-9887-4073-A94F-B53AD0AC9ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10EEA7A8-6EBC-4519-865B-79676BF96252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EEA7A8-6EBC-4519-865B-79676BF96252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EEA7A8-6EBC-4519-865B-79676BF96252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EEA7A8-6EBC-4519-865B-79676BF96252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B94BA35-D354-4B67-8DAB-06959615FAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B94BA35-D354-4B67-8DAB-06959615FAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B94BA35-D354-4B67-8DAB-06959615FAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B94BA35-D354-4B67-8DAB-06959615FAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E96065D-A4B6-41AB-A9BE-7945E9F3E30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E96065D-A4B6-41AB-A9BE-7945E9F3E30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E96065D-A4B6-41AB-A9BE-7945E9F3E30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E96065D-A4B6-41AB-A9BE-7945E9F3E30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD05B03-7F1B-48BA-8712-A648F1488175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD05B03-7F1B-48BA-8712-A648F1488175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD05B03-7F1B-48BA-8712-A648F1488175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD05B03-7F1B-48BA-8712-A648F1488175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51056E7-94A3-411D-8E27-CF17644E4BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51056E7-94A3-411D-8E27-CF17644E4BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51056E7-94A3-411D-8E27-CF17644E4BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51056E7-94A3-411D-8E27-CF17644E4BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E201848A-4A00-4420-AEBA-E0D747DDA236} = {F5243445-01D0-4809-A299-50D46BABB952}
+		{87196F53-3295-4CB1-87D2-94D196710991} = {D3B9EB1E-4BD5-4BC8-8F62-82A60F540EB0}
+		{144F1EF5-F6B5-441E-A900-700707DDFC07} = {D3B9EB1E-4BD5-4BC8-8F62-82A60F540EB0}
+		{522B14B9-CB7A-40CB-AFB4-6D6232816DEB} = {D3B9EB1E-4BD5-4BC8-8F62-82A60F540EB0}
+		{5258B0E1-5442-45D0-8F74-CB4AB68A2EB1} = {D3B9EB1E-4BD5-4BC8-8F62-82A60F540EB0}
+		{8B378F2D-760B-4086-B5E8-CC738C382A97} = {D3B9EB1E-4BD5-4BC8-8F62-82A60F540EB0}
+		{6F0C6FC7-80A3-4C90-988B-39C5BC74975F} = {8B378F2D-760B-4086-B5E8-CC738C382A97}
+		{5081A443-9887-4073-A94F-B53AD0AC9ABC} = {522B14B9-CB7A-40CB-AFB4-6D6232816DEB}
+		{10EEA7A8-6EBC-4519-865B-79676BF96252} = {5258B0E1-5442-45D0-8F74-CB4AB68A2EB1}
+		{8B94BA35-D354-4B67-8DAB-06959615FAE4} = {144F1EF5-F6B5-441E-A900-700707DDFC07}
+		{6E96065D-A4B6-41AB-A9BE-7945E9F3E30C} = {E201848A-4A00-4420-AEBA-E0D747DDA236}
+		{5CD05B03-7F1B-48BA-8712-A648F1488175} = {87196F53-3295-4CB1-87D2-94D196710991}
+		{B8C2390F-E190-457F-9BD1-1C760542BF09} = {D3B9EB1E-4BD5-4BC8-8F62-82A60F540EB0}
+		{A51056E7-94A3-411D-8E27-CF17644E4BD7} = {B8C2390F-E190-457F-9BD1-1C760542BF09}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {7A09382D-F46E-49C7-9F61-B22DB365879C}
+	EndGlobalSection
+EndGlobal

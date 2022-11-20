@@ -1,0 +1,17 @@
+body {
+  background-color: var(--background-body);
+  color: var(--color-text);
+}
+
+.background-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.background-gray-light {
+  background-color: var(--gray-light);
+}
+
+.background-gray-medium {
+  background-color: var(--gray-medium);
+}

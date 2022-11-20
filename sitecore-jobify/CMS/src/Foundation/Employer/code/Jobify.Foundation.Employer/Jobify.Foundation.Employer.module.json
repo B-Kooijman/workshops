@@ -1,0 +1,12 @@
+﻿{
+  "namespace": "Jobify.Foundation.Employer",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "references": ["Jobify.Foundation.Content"],
+        "path": "/sitecore/templates/Foundation/Employer"
+      }
+    ]
+  }
+}

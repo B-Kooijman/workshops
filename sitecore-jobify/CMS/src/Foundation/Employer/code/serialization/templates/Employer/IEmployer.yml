@@ -1,0 +1,51 @@
+﻿---
+ID: "52e4c818-4f21-4fce-8b51-1705b6fdc94f"
+Parent: "1626b349-e57c-4330-a1f2-058325957f5f"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/Employer/IEmployer
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: business/32x32/businessmen.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {707B62C2-3302-4C05-B4B8-B004D254A30D}
+    {AFCE1E0E-C99C-438C-858F-14AA56A02EB8}
+    {150455E7-7A33-4914-BF51-94F6DE71BA70}
+    {E4EF4145-487D-4040-B2D2-500FE7E13ABF}
+    {7C867212-E982-4732-9449-EB72CDBD19BC}
+    {F2E0D27B-E675-45F5-968B-BCE968754554}
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: 
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{FA07A0DB-4DDC-445F-8BD9-960172D68BB2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211010T075507Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d5c2b48-0a0d-4588-971b-242ad1a994b0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211021T115047Z

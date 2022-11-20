@@ -1,0 +1,31 @@
+﻿{
+  "namespace": "Jobify.Project.Website",
+  "items": {
+    "includes": [
+      {
+        "name": "layouts",
+        "path": "/sitecore/layout/Layouts/Project/jobify"
+      },
+      {
+        "name": "placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Project/jobify"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/jobify"
+      },
+      {
+        "name": "structure",
+        "path": "/sitecore/templates/Project/structure"
+      },
+      {
+        "name": "branches",
+        "path": "/sitecore/templates/Branches/Project/jobify"
+      },
+      {
+        "name": "api-key",
+        "path": "/sitecore/system/Settings/Services/API Keys/jobify"
+      }
+    ]
+  }
+}

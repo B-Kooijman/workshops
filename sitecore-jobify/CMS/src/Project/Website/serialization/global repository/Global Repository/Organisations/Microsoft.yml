@@ -1,0 +1,27 @@
+﻿---
+ID: "92369566-52be-431d-9789-42631db2f4c7"
+Parent: "ddc98009-6f3f-4d77-ad27-13822dd4f0fe"
+Template: "4b566ecb-50b4-43e7-b620-18166802a21f"
+Path: /sitecore/content/Global Repository/Organisations/Microsoft
+SharedFields:
+- ID: "86ad20a7-7810-4c02-b4a9-e06d3ed52b03"
+  Hint: ID
+  Value: MSFT
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211010T084139Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec946890-4767-4d4f-a43a-cc50f79a77e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211010T085537Z

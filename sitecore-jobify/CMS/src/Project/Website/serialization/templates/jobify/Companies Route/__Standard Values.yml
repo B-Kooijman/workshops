@@ -1,0 +1,30 @@
+﻿---
+ID: "6c831b56-03b1-467a-93a2-a37c43955355"
+Parent: "3e1f39f4-8272-4a55-b413-a38fa6cf3369"
+Template: "3e1f39f4-8272-4a55-b413-a38fa6cf3369"
+Path: /sitecore/templates/Project/jobify/Companies Route/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder2_blue.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{A3396951-0F80-4B05-A9D1-BB8371C3D636}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211018T081115Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68893b20-097b-44a8-b81c-5bcac1b5dc94"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211018T133413Z

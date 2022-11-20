@@ -1,0 +1,44 @@
+﻿---
+ID: "4110e7c8-0cc4-4d56-8fee-acb63b16c6c7"
+Parent: "e45cf481-1f8f-4d67-b949-170acd49dc4b"
+Template: "7d1e5806-a1c7-4785-9c56-977fd3d6e56f"
+Path: /sitecore/content/Global Repository/Applications/Jan Janssen
+SharedFields:
+- ID: "9dafca1d-d618-4616-86b8-a8acd6b28a63"
+  Hint: __Bucket Parent Reference
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e6e4fc6-95c8-458f-a233-b8c9b9c328d4"
+      Hint: Text
+      Value: Mijn naam is Jan, 52 jaar en woonachtig in Hoofddorp. Hierbij sollicteer ik graag naar de functie van software developer ....
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211010T080308Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0b6ca02e-e26c-47d0-83f0-bc9bc1263b0f"
+    - ID: "92b53f13-954a-4d6c-a1ba-22a26fda0de3"
+      Hint: Title
+      Value: Software Developer
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211012T072950Z
+    - ID: "fd558e94-d28d-48e6-8a4a-8210e62b1656"
+      Hint: Related Vacancy
+      Value: "{1D1C7654-08C3-4223-96A7-D6DA376DC26F}"

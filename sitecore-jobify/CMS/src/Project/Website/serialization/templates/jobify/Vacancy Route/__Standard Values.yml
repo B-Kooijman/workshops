@@ -1,0 +1,27 @@
+﻿---
+ID: "3028f40e-6fd2-41ae-ba8d-2e46a0ac7772"
+Parent: "87be5f0e-a942-4803-a8fd-201a5a60bc78"
+Template: "87be5f0e-a942-4803-a8fd-201a5a60bc78"
+Path: /sitecore/templates/Project/jobify/Vacancy Route/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/form_green.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211018T132935Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "05986dfe-f6da-41a3-a341-87f2eff24f16"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211018T132952Z

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.13.12/babel.js"></script>
+
+    <script type="text/babel">
+      const rootElement = document.getElementById("root");
+
+      const props = {
+        backLink: {
+          url: "./01_jsx-and-javascript.html",
+          text: "Go back to JSX and JavaScript"
+        },
+        header: {
+          title: "Hello React, JSX and Props.",
+          className: "my-css-class"
+        },
+        forwardLink: {
+          url: "./03_jsx-reusable-components.html",
+          text: "Go to JSX Reusable Components"
+        }
+      };
+
+      const backElement = (
+        <a href={props.backLink.url}> {props.backLink.text}</a>
+      );
+      const headerElement = (
+        <h1 className={props.header.className}>{props.header.title}</h1>
+      );
+      const forwardElement = (
+        <a href={props.forwardLink.url}> {props.forwardLink.text}</a>
+      );
+
+      const AllElements = (
+        <>
+          {backElement}
+          {headerElement}
+          {forwardElement}
+        </>
+      );
+
+      // Uncomment these lines to reuse components.
+
+      // const linkElement = (link) => <a href={link.url}> {link.text}</a>;
+      // const headerElement = (header) => (
+      //   <h1 className={header.className}>{header.title}</h1>
+      // );
+
+      // const AllElements = (
+      //   <>
+      //     {linkElement(props.backLink)}
+      //     {headerElement(props.header)}
+      //     {linkElement(props.forwardLink)}
+      //   </>
+      // );
+
+      ReactDOM.render(AllElements, rootElement);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+export { ContentBlock, type ContentBlockProps } from "./ContentBlock";

@@ -1,0 +1,23 @@
+﻿---
+ID: "ddc98009-6f3f-4d77-ad27-13822dd4f0fe"
+Parent: "8fbb1d4d-a6d0-4ed9-86be-b6f3c231db21"
+Template: "be0cf1b9-bf33-44ff-85cb-2d7cd0adce82"
+Path: /sitecore/content/Global Repository/Organisations
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211010T084127Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "471de144-4bc3-4c85-8eda-5ede92a378bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211010T084127Z

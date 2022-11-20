@@ -1,0 +1,26 @@
+﻿{
+  "namespace": "Jobify.Project.Website.Content",
+  "items": {
+    "includes": [
+      {
+        "name": "dictionary",
+        "path": "/sitecore/content/jobify/jobify Dictionary"
+      },
+      {
+        "name": "global repository",
+        "references": [ "Jobify.Project.Website", "Foundation.*" ],
+        "path": "/sitecore/content/Global Repository"
+      },
+      {
+        "name": "local repository",
+        "references": [ "Jobify.Project.Website", "Foundation.*" ],
+        "path": "/sitecore/content/jobify/Local Repository"
+      },
+      {
+        "name": "content",
+        "references": [ "Jobify.Project.Website", "Foundation.*" ],
+        "path": "/sitecore/content/jobify/home"
+      }
+    ]
+  }
+}

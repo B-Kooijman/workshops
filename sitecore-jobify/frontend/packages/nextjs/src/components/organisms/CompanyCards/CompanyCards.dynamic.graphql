@@ -1,0 +1,37 @@
+fragment friendlyUrl on DetailRoute {
+  friendlyUrl {
+    value
+  }
+}
+
+query CompanyCards($language: String!) {
+  item(
+    path: "/sitecore/content/Global Repository/Employers"
+    language: $language
+  ) {
+    id
+    hasChildren
+    children(
+      hasLayout: true
+      includeTemplateIDs: "{52E4C818-4F21-4FCE-8B51-1705B6FDC94F}"
+      first: 3
+    ) {
+      results {
+        ... on IEmployer {
+          id
+          image {
+            src
+            alt
+          }
+          text {
+            value
+          }
+          title {
+            value
+          }
+					...friendlyUrl
+        }
+      }
+    }
+  }
+}

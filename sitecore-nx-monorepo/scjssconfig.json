@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\jobify-cmssc.dev.local",
+    "apiKey": "{8566C962-046E-42CC-9241-47980A5C326B}",
+    "deploySecret": "me9irl0mz3l9ti7e9uv02af1cuus1knengreuakj5o7n",
+    "deployUrl": "http://jobify.local/sitecore/api/jss/import",
+    "layoutServiceHost": "http://jobify.local"
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+
+  <script type="text/javascript">
+    const rootElement = document.getElementById("root");
+
+    // All these syntaxes lead to the same protocol syntax.
+    // Syntax nr. 1
+    const titleElement = React.createElement("h1", {
+      children: "Hello React with a single element",
+      className: "my-css-class"
+    });
+
+    // Syntax nr. 2
+    // const titleElement = React.createElement(
+    //   "h1",
+    //   {
+    //     className: "my-css-class"
+    //   },
+    //   "Hello React"
+    // );
+
+    // Syntax nr. 3
+    // const titleElement = React.createElement("h1", {
+    //   children: ["Hello React", ", how are you doing?"],
+    //   className: "my-css-class"
+    // });
+
+    console.log(titleElement); // Check the protocol here!
+
+    ReactDOM.render(titleElement, rootElement);
+
+    // Note: You can combine vanilla javascript and React!
+    const linkElement = document.createElement("a");
+    linkElement.href = "./02_multiple-react-elements.html";
+    linkElement.textContent = "Go to React with Multiple Elements";
+    rootElement.appendChild(linkElement);
+  </script>
+</html>

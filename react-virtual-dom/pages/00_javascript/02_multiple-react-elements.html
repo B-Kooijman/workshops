@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+
+  <script type="text/javascript">
+    const rootElement = document.getElementById("root");
+    const AllElements = React.createElement(
+      "div",
+      null,
+      React.createElement("a", {
+        children: "Go back to Single React Element",
+        href: "./01_single-react-element.html"
+      }),
+      React.createElement(
+        "h1",
+        { className: "my-css-class" },
+        "Hello React with multiple elements!"
+      ),
+      React.createElement("a", {
+        children: "Go to JSX",
+        href: "../01_jsx/00_jsx.html"
+        // key: 3
+      })
+    );
+
+    ReactDOM.render(AllElements, rootElement);
+
+    // const titleElement = React.createElement("h1", {
+    //   children: "Hello React with multiple elements!",
+    //   className: "my-css-class"
+    //   // key: 1
+    // });
+
+    // const backElement = React.createElement("a", {
+    //   children: "Go back to the Javascript syntax",
+    //   href: "./javascript.html"
+    //   // key: 2
+    // });
+
+    // const forwardElement = React.createElement("a", {
+    //   children: "Go to the JSX syntax",
+    //   href: "./jsx.html"
+    //   // key: 3
+    // });
+
+    // const AllElements = React.createElement("div", {
+    //   children: [backElement, titleElement, forwardElement]
+    // });
+
+    // // notice the error in the console! Every child must have a unique identifier!
+    // ReactDOM.render(bla, rootElement);
+  </script>
+</html>

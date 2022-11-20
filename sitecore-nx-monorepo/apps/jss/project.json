@@ -1,0 +1,124 @@
+{
+  "sourceRoot": "apps/jss",
+  "projectType": "application",
+  "targets": {
+    "bootstrap": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "npx ts-node --project tsconfig.scripts.json scripts/bootstrap.ts",
+        "cwd": "apps/jss"
+      }
+    },
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "development",
+      "dependsOn": ["bootstrap"],
+      "options": {
+        "root": "apps/jss",
+        "outputPath": "apps/jss/.next",
+        "nextConfig": "apps/jss/next.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "watch": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "npx ts-node --project tsconfig.scripts.json scripts/generate-component-factory.ts --watch",
+        "cwd": "apps/jss"
+      }
+    },
+    "start": {
+      "executor": "@nrwl/workspace:run-commands",
+      "defaultConfiguration": "connected",
+      "dependsOn": ["build"],
+      "options": {
+        "commands": ["nx watch", "nx serve"],
+        "cwd": "apps/jss"
+      },
+      "configurations": {
+        "connected": {
+          "options": {
+            "commands": ["nx watch", "cross-env NODE_OPTIONS='--inspect' nx serve"],
+            "cwd": "apps/jss"
+          }
+        },
+        "production": {
+          "options": {
+            "command": "next start",
+            "cwd": "apps/jss"
+          }
+        }
+      }
+    },
+    "graphql": {
+      "executor": "@nrwl/workspace:run-commands",
+      "defaultConfiguration": "update",
+      "options": {
+        "command": "ts-node --project tsconfig.scripts.json ./scripts/fetch-graphql-introspection-data.ts",
+        "cwd": "apps/jss"
+      },
+      "configurations": {
+        "update": {
+          "options": {
+            "command": "ts-node --project tsconfig.scripts.json ./scripts/fetch-graphql-introspection-data.ts",
+            "cwd": "apps/jss"
+          }
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "jss:build",
+        "dev": true,
+        "cwd": "apps/jss"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "jss:build:development",
+          "dev": true,
+          "port": 3000
+        },
+        "production": {
+          "buildTarget": "jss:build:production",
+          "dev": false
+        }
+      }
+    },
+    "scaffold": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "npx ts-node --project tsconfig.scripts.json scripts/scaffold-component.ts {args.name}",
+        "cwd": "apps/jss"
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "jss:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/jss"],
+      "options": {
+        "jestConfig": "apps/jss/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/jss/src/**/*.{ts,tsx,js,jsx}", "apps/jss/scripts/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
+

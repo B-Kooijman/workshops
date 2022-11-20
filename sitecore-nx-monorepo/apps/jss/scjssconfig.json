@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\dummy",
+    "apiKey": "{8566C962-046E-42CC-9241-47980A5C326B}",
+    "deploySecret": "dummy1kfjxy646z33st3m7fr70klav49vxnhpihpmo",
+    "deployUrl": "http://jobify.local/sitecore/api/jss/import",
+    "layoutServiceHost": "http://jobify.local"
+  }
+}

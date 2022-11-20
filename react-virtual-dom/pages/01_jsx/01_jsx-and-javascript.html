@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.13.12/babel.js"></script>
+
+    <script type="text/babel">
+      const rootElement = document.getElementById("root");
+
+      const backUrl = "./00_jsx.html";
+      const backUrlText = "Go back to JSX";
+      const backElement = <a href={backUrl}> {backUrlText}</a>;
+
+      const className = "my-css-class";
+      const title = "Hello React with Javascript in JSX!";
+      const titleElement = <h1 className={className}>{title}</h1>;
+
+      const forwardUrl = "./02_jsx-and-props.html";
+      const forwardUrlText = "Go to props in JSX";
+      const forwardElement = <a href={forwardUrl}> {forwardUrlText}</a>;
+
+      const AllElements = (
+        <>
+          {backElement}
+          {titleElement}
+          {forwardElement}
+        </>
+      );
+
+      ReactDOM.render(AllElements, rootElement);
+    </script>
+  </body>
+</html>
+
+<!-- The curly braces tell JSX the content in between 
+  is a JavaScript expression, instead of HTML -->
